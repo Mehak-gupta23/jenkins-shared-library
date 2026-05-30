@@ -5,10 +5,11 @@ ACTION_MESSAGE: "Ansible deployment for Assignment6"
 KEEP_APPROVAL_STAGE: true
 
 GIT:
-URL: https://github.com/Mehak-gupta23/ansible-repo.git
-BRANCH: main
-CREDENTIALS_ID: git-credits
+  URL: https://github.com/Mehak-gupta23/ansible-repo.git
+  BRANCH: main
+  CREDENTIALS_ID: git-credits
 
 ANSIBLE:
-PLAYBOOK: site.yml
+  PLAYBOOK: site.yml
+
 

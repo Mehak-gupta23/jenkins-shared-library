@@ -1,7 +1,7 @@
 def call(channel, message) {
 
     slackSend(
-        channel: channel,
+        channel: "#${channel}",
         message: message
     )
 
